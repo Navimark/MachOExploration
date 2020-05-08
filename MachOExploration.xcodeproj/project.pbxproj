@@ -69,6 +69,7 @@
 		84F1FEB524653E920046794C /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F1FEB924653E920046794C /* HelloWorldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldUITests.m; sourceTree = "<group>"; };
 		84F1FEBB24653E930046794C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F1FEC624654AD30046794C /* HelloWorld */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HelloWorld; path = HelloWorld/HelloWorld; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +129,7 @@
 		84F1FE8424653DB70046794C /* MachOExploration */ = {
 			isa = PBXGroup;
 			children = (
+				84F1FEC624654AD30046794C /* HelloWorld */,
 				84F1FE8524653DB70046794C /* main.m */,
 			);
 			path = MachOExploration;
@@ -333,7 +335,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /usr/bin/python3;
-			shellScript = "import os\nimport shutil\n\nproduct_dir = os.environ[\"BUILT_PRODUCTS_DIR\"]\nexecuteable_path = os.environ[\"EXECUTABLE_PATH\"] \nexecuteable_abs_path = os.path.join(product_dir,excuteable_path)\n\nexecuteable_name = os.environ[\"EXECUTABLE_NAME\"]\n\nproject_dir = os.environ[\"PROJECT_DIR\"]\n\ndes_exe_path = os.path.join(project_dir,executeable_name)\n\nshutil.copy2(excuteable_abs_path, des_exe_path)\n\nprint(\"excuteable_abs_path:\", excuteable_abs_path)\n\n\n";
+			shellScript = "import os\nimport shutil\n\nproduct_dir = os.environ[\"BUILT_PRODUCTS_DIR\"]\nexecuteable_path = os.environ[\"EXECUTABLE_PATH\"] \nexecuteable_abs_path = os.path.join(product_dir,executeable_path)\n\nexecuteable_name = os.environ[\"EXECUTABLE_NAME\"]\n\nproject_dir = os.environ[\"PROJECT_DIR\"]\n\ndes_exe_path = os.path.join(project_dir,executeable_name)\n\nshutil.copy2(executeable_abs_path, des_exe_path)\n\nprint(\"des_exe_path:\", des_exe_path)\n\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
