@@ -17,6 +17,7 @@
 		84F1FEA524653E920046794C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1FEA424653E920046794C /* main.m */; };
 		84F1FEAF24653E920046794C /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1FEAE24653E920046794C /* HelloWorldTests.m */; };
 		84F1FEBA24653E920046794C /* HelloWorldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1FEB924653E920046794C /* HelloWorldUITests.m */; };
+		84F1FECD2465794C0046794C /* HelloWorld in Resources */ = {isa = PBXBuildFile; fileRef = 84F1FECC2465794B0046794C /* HelloWorld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +70,7 @@
 		84F1FEB524653E920046794C /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F1FEB924653E920046794C /* HelloWorldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldUITests.m; sourceTree = "<group>"; };
 		84F1FEBB24653E930046794C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84F1FEC624654AD30046794C /* HelloWorld */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HelloWorld; path = HelloWorld/HelloWorld; sourceTree = SOURCE_ROOT; };
+		84F1FECC2465794B0046794C /* HelloWorld */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = HelloWorld; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +130,7 @@
 		84F1FE8424653DB70046794C /* MachOExploration */ = {
 			isa = PBXGroup;
 			children = (
-				84F1FEC624654AD30046794C /* HelloWorld */,
+				84F1FECC2465794B0046794C /* HelloWorld */,
 				84F1FE8524653DB70046794C /* main.m */,
 			);
 			path = MachOExploration;
@@ -298,6 +299,7 @@
 			files = (
 				84F1FEA224653E920046794C /* LaunchScreen.storyboard in Resources */,
 				84F1FE9F24653E920046794C /* Assets.xcassets in Resources */,
+				84F1FECD2465794C0046794C /* HelloWorld in Resources */,
 				84F1FE9D24653E8F0046794C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
