@@ -8,11 +8,6 @@
 
 #import "ViewController.h"
 
-@interface Person : NSObject
-@end
-@implementation Person
-@end
-
 @interface ViewController ()
 
 @end
@@ -21,8 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    Person *p = [[Person alloc] init];
-    
+    // Do any additional setup after loading the view.
 }
 
 
