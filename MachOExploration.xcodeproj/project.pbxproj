@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84B63DCE24696D36003585AF /* img_nnn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B63DCD24696D35003585AF /* img_nnn.jpg */; };
 		84F1FE8624653DB70046794C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1FE8524653DB70046794C /* main.m */; };
 		84F1FE9424653E8F0046794C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1FE9324653E8F0046794C /* AppDelegate.m */; };
 		84F1FE9724653E8F0046794C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1FE9624653E8F0046794C /* SceneDelegate.m */; };
@@ -17,7 +18,6 @@
 		84F1FEA524653E920046794C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1FEA424653E920046794C /* main.m */; };
 		84F1FEAF24653E920046794C /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1FEAE24653E920046794C /* HelloWorldTests.m */; };
 		84F1FEBA24653E920046794C /* HelloWorldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1FEB924653E920046794C /* HelloWorldUITests.m */; };
-		84F1FECD2465794C0046794C /* HelloWorld in Resources */ = {isa = PBXBuildFile; fileRef = 84F1FECC2465794B0046794C /* HelloWorld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		84B63DCD24696D35003585AF /* img_nnn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_nnn.jpg; sourceTree = "<group>"; };
 		84F1FE8224653DB70046794C /* MachOExploration */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MachOExploration; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F1FE8524653DB70046794C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84F1FE9024653E8F0046794C /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +146,7 @@
 				84F1FE9624653E8F0046794C /* SceneDelegate.m */,
 				84F1FE9824653E8F0046794C /* ViewController.h */,
 				84F1FE9924653E8F0046794C /* ViewController.m */,
+				84B63DCD24696D35003585AF /* img_nnn.jpg */,
 				84F1FE9B24653E8F0046794C /* Main.storyboard */,
 				84F1FE9E24653E920046794C /* Assets.xcassets */,
 				84F1FEA024653E920046794C /* LaunchScreen.storyboard */,
@@ -299,7 +301,7 @@
 			files = (
 				84F1FEA224653E920046794C /* LaunchScreen.storyboard in Resources */,
 				84F1FE9F24653E920046794C /* Assets.xcassets in Resources */,
-				84F1FECD2465794C0046794C /* HelloWorld in Resources */,
+				84B63DCE24696D36003585AF /* img_nnn.jpg in Resources */,
 				84F1FE9D24653E8F0046794C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,7 +550,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GRT532Z4Z7;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -567,7 +569,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GRT532Z4Z7;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
