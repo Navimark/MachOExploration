@@ -30,7 +30,8 @@ void *load_bytes(FILE *fp, int offset, int size)
 
 struct mach_header_64* load_header_64(FILE *fp)
 {
-    struct mach_header_64 *header = load_bytes(fp, 0, sizeof(struct mach_header_64));
+    struct mach_header_64 *header = load_bytes(fp, 0,
+                                               sizeof(struct mach_header_64));
     NSLog(@"magic:%X",header->magic);   // FEEDFACF
     NSLog(@"cputype:%d",header->cputype); // 16777228 : CPU_TYPE_ARM64;
     NSLog(@"cpusubtype:%d",header->cpusubtype); // 0 : CPU_SUBTYPE_VAX_ALL;
